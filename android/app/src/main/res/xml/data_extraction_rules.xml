@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude authentication tokens, cryptographic keys, and cached credentials from cloud backup -->
+        <exclude path="shared_prefs/kalasetu_secure_prefs.xml"/>
+        <exclude path="databases/"/>
+    </cloud-backup>
+    <device-transfer>
+        <include path="shared_prefs/"/>
+        <exclude path="databases/"/>
+    </device-transfer>
+</data-extraction-rules>

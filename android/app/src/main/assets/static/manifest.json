@@ -1,0 +1,49 @@
+{
+  "name": "KalaSetu (कला सेतु) - AI Artisan Market Linkage",
+  "short_name": "KalaSetu",
+  "description": "AI-Driven Market Linkage & Smart Cataloging Mobile Application for Marginalized Artisans",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0A0D14",
+  "theme_color": "#E05A38",
+  "icons": [
+    {
+      "src": "/static/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "AI Material Scanner",
+      "short_name": "Scanner",
+      "description": "Scan raw materials & craft properties",
+      "url": "/#scanner",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Artisan Marketplace",
+      "short_name": "Market",
+      "description": "Browse authenticated GI crafts",
+      "url": "/#market",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Live Logistics Tracking",
+      "short_name": "Tracking",
+      "description": "Track courier pickup and dispatch",
+      "url": "/#delivery",
+      "icons": [{ "src": "/static/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["shopping", "business", "lifestyle", "productivity"],
+  "lang": "hi-IN"
+}

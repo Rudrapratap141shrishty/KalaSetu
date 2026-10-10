@@ -1,0 +1,325 @@
+/* ==========================================================================
+   AI MATERIAL SCANNER & SMART CATALOGING CAMERA HUD STYLING
+   ========================================================================== */
+
+.scanner-viewfinder-card {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #06090E;
+  border: 1px solid var(--border-medium);
+  box-shadow: var(--shadow-md);
+  margin-bottom: 1.1rem;
+}
+
+.camera-stream-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.camera-preview-video, .camera-preview-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter var(--transition-normal);
+}
+
+.scanner-overlay-hud {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+/* Corner Reticles */
+.reticle-corner {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-color: var(--ochre-gold);
+  border-style: solid;
+}
+.reticle-tl { top: 16px; left: 16px; border-width: 3px 0 0 3px; border-top-left-radius: 8px; }
+.reticle-tr { top: 16px; right: 16px; border-width: 3px 3px 0 0; border-top-right-radius: 8px; }
+.reticle-bl { bottom: 16px; left: 16px; border-width: 0 0 3px 3px; border-bottom-left-radius: 8px; }
+.reticle-br { bottom: 16px; right: 16px; border-width: 0 3px 3px 0; border-bottom-right-radius: 8px; }
+
+/* Animated Laser Scan Beam */
+.scanner-laser-line {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #FF4500, #F4A228, #FF4500, transparent);
+  box-shadow: 0 0 16px #FF4500, 0 0 28px rgba(244, 162, 40, 0.8);
+  animation: laserScan 2.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  display: none;
+  z-index: 10;
+}
+.is-scanning .scanner-laser-line {
+  display: block;
+}
+
+/* HUD Telemetry Badges */
+.hud-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hud-telemetry-badge {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: #38BDF8;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hud-pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #38BDF8;
+  animation: pulseGlow 1.2s infinite;
+}
+
+.hud-center-target {
+  align-self: center;
+  text-align: center;
+  background: rgba(10, 13, 20, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-subtle);
+  padding: 8px 14px;
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* Material Quick Presets & Upload Strip */
+.material-samples-scroll {
+  display: flex;
+  gap: 0.55rem;
+  overflow-x: auto;
+  padding: 0.2rem 0 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.material-samples-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.sample-chip {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-medium);
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+.sample-chip:hover {
+  border-color: var(--terracotta);
+  color: var(--text-primary);
+  transform: translateY(-1px);
+}
+.sample-chip.active {
+  background: var(--terracotta-glow);
+  border-color: var(--terracotta);
+  color: #FFF;
+}
+.sample-chip-icon {
+  font-size: 1rem;
+}
+
+/* AI Scan Output Result Container */
+.scan-result-card {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+}
+
+.scan-result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.75rem;
+}
+
+.scan-title-box h3 {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.scan-title-box p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.confidence-gauge {
+  text-align: right;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+.confidence-gauge span {
+  display: block;
+  font-size: 0.64rem;
+  color: var(--emerald);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.confidence-gauge strong {
+  font-size: 0.95rem;
+  color: #FFF;
+  font-family: var(--font-mono);
+}
+
+/* Material Properties Grid */
+.properties-spec-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.spec-box {
+  background: var(--bg-surface-glass);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.8rem;
+}
+.spec-box .spec-label {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 2px;
+}
+.spec-box .spec-value {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Transparent Fair-Wage Pricing Card */
+.pricing-breakdown-card {
+  background: linear-gradient(145deg, rgba(34, 56, 89, 0.4) 0%, rgba(18, 31, 51, 0.6) 100%);
+  border: 1px solid rgba(147, 197, 253, 0.2);
+  border-radius: var(--radius-md);
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.pricing-title-row h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #93C5FD;
+}
+
+.price-line-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  padding: 0.25rem 0;
+}
+.price-line-item.highlight-wage {
+  color: var(--ochre-gold);
+  font-weight: 700;
+  border-top: 1px dashed rgba(244, 162, 40, 0.3);
+  border-bottom: 1px dashed rgba(244, 162, 40, 0.3);
+  padding: 0.4rem 0;
+  margin: 0.3rem 0;
+}
+.price-line-item.final-price {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #FFF;
+  border-top: 1px solid var(--border-medium);
+  padding-top: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.middleman-comparison-alert {
+  background: rgba(239, 68, 68, 0.12);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: var(--radius-xs);
+  padding: 0.4rem 0.65rem;
+  font-size: 0.72rem;
+  color: #FCA5A5;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Assigned Delivery Partner Card */
+.delivery-partner-preview {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.courier-info-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.courier-avatar-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--gradient-jade);
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+.courier-details h5 {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.courier-details p {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+.courier-eta-badge {
+  text-align: right;
+  font-size: 0.75rem;
+  color: var(--emerald);
+  font-weight: 700;
+}

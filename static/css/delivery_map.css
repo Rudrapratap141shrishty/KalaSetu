@@ -1,0 +1,243 @@
+/* ==========================================================================
+   DELIVERY TRACKING, GPS ROUTE VISUALIZER & COURIER DISPATCH STYLING
+   ========================================================================== */
+
+.delivery-tracking-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Courier Hero Card */
+.courier-hero-card {
+  background: linear-gradient(135deg, var(--bg-surface-elevated) 0%, rgba(30, 107, 82, 0.15) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.courier-status-strip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+.live-pulse-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(16, 185, 129, 0.18);
+  border: 1px solid var(--emerald);
+  color: var(--emerald);
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.live-pulse-badge::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--emerald);
+  box-shadow: 0 0 8px var(--emerald);
+  animation: pulseGlow 1s infinite;
+}
+
+.courier-profile-row {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+.driver-avatar-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--gradient-jade);
+  color: #FFF;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px var(--emerald-glow);
+  flex-shrink: 0;
+}
+.driver-info-main h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.driver-info-main p {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+}
+.driver-rating-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.76rem;
+  color: var(--ochre-gold);
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+/* Interactive Map Simulation Frame */
+.interactive-route-map {
+  width: 100%;
+  height: 190px;
+  background: #09121E;
+  border-radius: var(--radius-md);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border-medium);
+  margin-bottom: 0.5rem;
+}
+
+.map-svg-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.25;
+}
+
+.map-road-track {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 6px;
+  background: #1E2E45;
+  border-radius: 6px;
+  transform: translateY(-50%);
+}
+.map-road-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 100%;
+  background: linear-gradient(90deg, #10B981, #38BDF8);
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+.map-van-marker {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #38BDF8;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  box-shadow: 0 0 16px #38BDF8;
+  animation: pulseGlow 1.8s infinite;
+}
+
+.map-checkpoint-pin {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--bg-surface);
+  border: 3px solid var(--emerald);
+}
+.pin-origin { left: 8%; }
+.pin-dest { right: 8%; border-color: var(--terracotta); }
+
+.map-eta-overlay {
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: #38BDF8;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+}
+
+/* Timeline Route Stepper */
+.delivery-timeline-stepper {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.1rem;
+}
+
+.timeline-step-item {
+  display: flex;
+  gap: 0.9rem;
+  position: relative;
+  padding-bottom: 1.1rem;
+}
+.timeline-step-item:last-child {
+  padding-bottom: 0;
+}
+.timeline-step-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 22px;
+  left: 11px;
+  bottom: -4px;
+  width: 2px;
+  background: var(--border-medium);
+}
+.timeline-step-item.step-done:not(:last-child)::after {
+  background: var(--emerald);
+}
+
+.step-bullet-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--bg-surface-subtle);
+  border: 2px solid var(--border-medium);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.step-done .step-bullet-icon {
+  background: var(--emerald);
+  border-color: var(--emerald);
+  color: #FFF;
+}
+.step-active .step-bullet-icon {
+  background: #38BDF8;
+  border-color: #38BDF8;
+  color: #000;
+  box-shadow: 0 0 10px #38BDF8;
+  animation: pulseGlow 1.5s infinite;
+}
+
+.step-content-box h5 {
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.step-content-box p {
+  font-size: 0.73rem;
+  color: var(--text-muted);
+}
+.step-content-box .step-time {
+  font-size: 0.68rem;
+  color: var(--ochre-gold);
+  font-family: var(--font-mono);
+}

@@ -1,0 +1,605 @@
+{
+  "ai_spectral_scans": [
+    {
+      "material_name": "Seasoned Saharanpur Carving Teak Hardwood",
+      "category": "WOODWORK",
+      "origin": "Saharanpur, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Solid Seasoned Tectona grandis",
+        "moisture_content": "8.2% Kiln Conditioned",
+        "density": "680 kg / m\u00b3",
+        "termite_resistance": "Class 1 Exceptional Natural Resin Protection",
+        "gi_registry_no": "GI-IN-2021-114"
+      },
+      "pricing": {
+        "raw_material_base_cost": 896.0,
+        "standard_craft_weight_kg": 3.2,
+        "standard_labor_hours": 22.0,
+        "fair_hourly_wage": 210.0,
+        "fair_artisan_wage": 4620.0,
+        "tooling_and_firing": 284.4,
+        "eco_packaging_and_tax": 561.28,
+        "recommended_fair_retail_price": 6361.68,
+        "conventional_middleman_price": 11769.11,
+        "artisan_direct_share_percent": 72.6,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "0c693234-a059-411c-9017-81766ec9d5a2",
+      "timestamp": "2026-09-07T10:18:47.103926+00:00"
+    },
+    {
+      "material_name": "GI Gorakhpur Natural Terracotta Clay",
+      "category": "POTTERY",
+      "origin": "Gorakhpur, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "78% Alluvial Silicate, 14% Kaolinite, 8% Ferric Oxide",
+        "thermal_insulation": "94% Efficiency",
+        "porosity_index": "12.4% breathable micropores",
+        "food_safety_grade": "100% Lead-Free & Non-Toxic",
+        "gi_registry_no": "GI-IN-2020-091"
+      },
+      "pricing": {
+        "raw_material_base_cost": 202.5,
+        "standard_craft_weight_kg": 4.5,
+        "standard_labor_hours": 12.0,
+        "fair_hourly_wage": 185.0,
+        "fair_artisan_wage": 2220.0,
+        "tooling_and_firing": 180.38,
+        "eco_packaging_and_tax": 313.8,
+        "recommended_fair_retail_price": 2916.68,
+        "conventional_middleman_price": 5395.86,
+        "artisan_direct_share_percent": 76.1,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "3d5fa923-0a82-46aa-b564-21f33322224b",
+      "timestamp": "2026-09-07T10:18:39.242904+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "411d99bd-d0bc-4ee8-974a-d80172391076",
+      "timestamp": "2026-09-07T10:18:25.621666+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "21cc10af-10ca-4418-9124-372f8f202862",
+      "timestamp": "2026-09-07T10:16:48.442870+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "01ddb292-0cbf-4727-9813-609f4b08a950",
+      "timestamp": "2026-09-04T09:38:50.540908+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "1b91e99b-283e-4447-81ba-4d14b58a1cc5",
+      "timestamp": "2026-09-04T09:27:28.709131+00:00"
+    },
+    {
+      "scan_id": "f15cff18-245f-41db-a2f2-4ffebafb9de1",
+      "material_code": "MAT-TERRA-01",
+      "material_name": "GI Gorakhpur Natural Terracotta Clay",
+      "properties": {
+        "composition": "78% Alluvial Silicate, 14% Kaolinite, 8% Ferric Oxide",
+        "thermal_insulation": "94% Efficiency",
+        "porosity_index": "12.4% breathable micropores",
+        "food_safety_grade": "100% Lead-Free & Non-Toxic",
+        "gi_registry_no": "GI-IN-2020-091"
+      },
+      "pricing_breakdown": {
+        "raw_material_base_cost": 202.5,
+        "standard_craft_weight_kg": 4.5,
+        "standard_labor_hours": 12.0,
+        "fair_hourly_wage": 185.0,
+        "fair_artisan_wage": 2220.0,
+        "tooling_and_firing": 180.38,
+        "eco_packaging_and_tax": 313.8,
+        "recommended_fair_retail_price": 2916.68,
+        "conventional_middleman_price": 5395.86,
+        "artisan_direct_share_percent": 76.1,
+        "currency": "INR (\u20b9)"
+      },
+      "delivery_partner": {
+        "id": "c13eb0bc-0106-4b49-97b4-bcee1590ce03",
+        "name": "Mangal Murmu (Tribal Express)",
+        "phone": "+91 94311 67200",
+        "vehicle_type": "All-Terrain Green Van",
+        "vehicle_number": "CG-04-TR-9021",
+        "hub_city": "Bastar Tribal Collective Depot",
+        "current_lat": 19.076,
+        "current_lng": 82.0298,
+        "rating": 4.95,
+        "total_trips": 410,
+        "is_available": true,
+        "estimated_dispatch_mins": 20
+      },
+      "source": "AI_CAMERA_SCAN",
+      "_id": "2d1b01b7-e4b7-4b97-ae93-5b89c733da11",
+      "timestamp": "2026-09-04T09:25:34.394157+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "b503b539-7ad2-4e34-954c-d9409e6642ab",
+      "timestamp": "2026-09-04T09:25:29.978149+00:00"
+    },
+    {
+      "scan_id": "ee94bf8e-048d-4d0f-b190-325a09ae925d",
+      "material_code": "MAT-TERRA-01",
+      "material_name": "GI Gorakhpur Natural Terracotta Clay",
+      "properties": {
+        "composition": "78% Alluvial Silicate, 14% Kaolinite, 8% Ferric Oxide",
+        "thermal_insulation": "94% Efficiency",
+        "porosity_index": "12.4% breathable micropores",
+        "food_safety_grade": "100% Lead-Free & Non-Toxic",
+        "gi_registry_no": "GI-IN-2020-091"
+      },
+      "pricing_breakdown": {
+        "raw_material_base_cost": 202.5,
+        "standard_craft_weight_kg": 4.5,
+        "standard_labor_hours": 12.0,
+        "fair_hourly_wage": 185.0,
+        "fair_artisan_wage": 2220.0,
+        "tooling_and_firing": 180.38,
+        "eco_packaging_and_tax": 313.8,
+        "recommended_fair_retail_price": 2916.68,
+        "conventional_middleman_price": 5395.86,
+        "artisan_direct_share_percent": 76.1,
+        "currency": "INR (\u20b9)"
+      },
+      "delivery_partner": {
+        "id": "c13eb0bc-0106-4b49-97b4-bcee1590ce03",
+        "name": "Mangal Murmu (Tribal Express)",
+        "phone": "+91 94311 67200",
+        "vehicle_type": "All-Terrain Green Van",
+        "vehicle_number": "CG-04-TR-9021",
+        "hub_city": "Bastar Tribal Collective Depot",
+        "current_lat": 19.076,
+        "current_lng": 82.0298,
+        "rating": 4.95,
+        "total_trips": 410,
+        "is_available": true,
+        "estimated_dispatch_mins": 20
+      },
+      "source": "AI_CAMERA_SCAN",
+      "_id": "b2462be0-8570-4f2d-a08e-c0fc5909671a",
+      "timestamp": "2026-09-04T09:25:12.571423+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "2d257ba3-8aec-45eb-9e88-f8e9db5f0ea9",
+      "timestamp": "2026-09-04T09:25:08.134873+00:00"
+    },
+    {
+      "scan_id": "1e480fcb-51fe-4242-910e-23a1eef08186",
+      "material_code": "MAT-TERRA-01",
+      "material_name": "GI Gorakhpur Natural Terracotta Clay",
+      "properties": {
+        "composition": "78% Alluvial Silicate, 14% Kaolinite, 8% Ferric Oxide",
+        "thermal_insulation": "94% Efficiency",
+        "porosity_index": "12.4% breathable micropores",
+        "food_safety_grade": "100% Lead-Free & Non-Toxic",
+        "gi_registry_no": "GI-IN-2020-091"
+      },
+      "pricing_breakdown": {
+        "raw_material_base_cost": 202.5,
+        "standard_craft_weight_kg": 4.5,
+        "standard_labor_hours": 12.0,
+        "fair_hourly_wage": 185.0,
+        "fair_artisan_wage": 2220.0,
+        "tooling_and_firing": 180.38,
+        "eco_packaging_and_tax": 313.8,
+        "recommended_fair_retail_price": 2916.68,
+        "conventional_middleman_price": 5395.86,
+        "artisan_direct_share_percent": 76.1,
+        "currency": "INR (\u20b9)"
+      },
+      "delivery_partner": {
+        "id": "c13eb0bc-0106-4b49-97b4-bcee1590ce03",
+        "name": "Mangal Murmu (Tribal Express)",
+        "phone": "+91 94311 67200",
+        "vehicle_type": "All-Terrain Green Van",
+        "vehicle_number": "CG-04-TR-9021",
+        "hub_city": "Bastar Tribal Collective Depot",
+        "current_lat": 19.076,
+        "current_lng": 82.0298,
+        "rating": 4.95,
+        "total_trips": 410,
+        "is_available": true,
+        "estimated_dispatch_mins": 20
+      },
+      "source": "AI_CAMERA_SCAN",
+      "_id": "499200f7-5f90-4c7e-8d26-d379cc6d45e9",
+      "timestamp": "2026-09-04T09:24:39.715612+00:00"
+    },
+    {
+      "material_name": "Pure Katan Mulberry Silk with Real Zari",
+      "category": "TEXTILE",
+      "origin": "Varanasi, Uttar Pradesh (GI Tagged)",
+      "properties": {
+        "composition": "100% Pure Mulberry Katan Silk, 0.4% Pure Silver Gilt Zari",
+        "warp_count": "120 Reed Count",
+        "weft_count": "140 Pick Count",
+        "luster_index": "9.2 / 10 Natural Prismatic Sheen",
+        "gi_registry_no": "GI-IN-2009-082"
+      },
+      "pricing": {
+        "raw_material_base_cost": 3570.0,
+        "standard_craft_weight_kg": 0.85,
+        "standard_labor_hours": 48.0,
+        "fair_hourly_wage": 240.0,
+        "fair_artisan_wage": 11520.0,
+        "tooling_and_firing": 685.5,
+        "eco_packaging_and_tax": 1327.2,
+        "recommended_fair_retail_price": 17102.7,
+        "conventional_middleman_price": 31640.0,
+        "artisan_direct_share_percent": 67.4,
+        "currency": "INR (\u20b9)"
+      },
+      "source": "GraphQL_Scan_Resolver",
+      "_id": "996423fa-8ef0-46a9-9b26-94eead84ebef",
+      "timestamp": "2026-09-04T09:24:35.283942+00:00"
+    }
+  ],
+  "artisan_heritage_stories": [
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "Saharanpur Hand-Carved Jali Wood Keepsake Box",
+      "category": "Woodwork",
+      "story": "Requires 16 hours of razor-sharp chisel carving by master artisans.",
+      "gi_origin": "Saharanpur, Uttar Pradesh",
+      "_id": "456298ab-aa3d-43a0-8481-01c8e4344c4a",
+      "created_at": "2026-09-07T10:16:28.972591+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Jaipur Turquoise Quartz Glazed Heritage Platter",
+      "category": "Pottery",
+      "story": "Low thermal expansion ensures everlasting luster without cracking.",
+      "gi_origin": "Jaipur, Rajasthan",
+      "_id": "2b4309ac-c071-437a-8b2d-a682c38bef07",
+      "created_at": "2026-09-07T10:16:28.965589+00:00"
+    },
+    {
+      "artisan_name": "Fatima Bano Chippa",
+      "craft_title": "Organic Indigo Dabu Handblock Printed Cotton Stole",
+      "category": "Textile",
+      "story": "Dyed in sunlit riverbanks of Bagru using heirloom wooden blocks passed down through three generations.",
+      "gi_origin": "Bagru, Rajasthan",
+      "_id": "59cba703-0949-4aa4-afdb-b7b129a1ee03",
+      "created_at": "2026-09-07T10:16:28.957334+00:00"
+    },
+    {
+      "artisan_name": "Birju Korwa",
+      "craft_title": "Bastar Lost-Wax Tribal Musician Bell Metal Sculpture",
+      "category": "Metal",
+      "story": "Birju Korwa and his clan gather wild bee wax from Bastar forests to weave delicate thread relief onto clay forms.",
+      "gi_origin": "Bastar, Chhattisgarh",
+      "_id": "aea7a8ad-d7ae-426c-af8b-79a4f993aba8",
+      "created_at": "2026-09-07T10:16:28.950330+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Curative Terracotta Alkaline Water Dispenser (5L)",
+      "category": "Pottery",
+      "story": "Fired in ancestral community kilns using agricultural husk. 100% biodegradable and zero chemical glazes.",
+      "gi_origin": "Gorakhpur, Uttar Pradesh",
+      "_id": "8c6be4cf-0dc3-47f8-85ce-3ad690caba1d",
+      "created_at": "2026-09-07T10:16:28.941324+00:00"
+    },
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "GI Varanasi Royal Shikargah Mulberry Silk Saree",
+      "category": "Textile",
+      "story": "Takes 48 painstaking hours on a manual wooden loom. Every purchase supports 4 weaver apprentice families in Varanasi.",
+      "gi_origin": "Varanasi, Uttar Pradesh",
+      "_id": "96d9258c-afd5-4298-ae28-d7dac13fc9e0",
+      "created_at": "2026-09-07T10:16:28.932325+00:00"
+    },
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "Saharanpur Hand-Carved Jali Wood Keepsake Box",
+      "category": "Woodwork",
+      "story": "Requires 16 hours of razor-sharp chisel carving by master artisans.",
+      "gi_origin": "Saharanpur, Uttar Pradesh",
+      "_id": "fd30214b-608b-4f1a-96e6-ab0e6c835e57",
+      "created_at": "2026-09-05T05:01:58.643645+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Jaipur Turquoise Quartz Glazed Heritage Platter",
+      "category": "Pottery",
+      "story": "Low thermal expansion ensures everlasting luster without cracking.",
+      "gi_origin": "Jaipur, Rajasthan",
+      "_id": "52704ed2-90f4-4de8-876e-53f7460b63d9",
+      "created_at": "2026-09-05T05:01:58.640636+00:00"
+    },
+    {
+      "artisan_name": "Fatima Bano Chippa",
+      "craft_title": "Organic Indigo Dabu Handblock Printed Cotton Stole",
+      "category": "Textile",
+      "story": "Dyed in sunlit riverbanks of Bagru using heirloom wooden blocks passed down through three generations.",
+      "gi_origin": "Bagru, Rajasthan",
+      "_id": "e825a1d3-9114-4811-ab85-f886a85d24b3",
+      "created_at": "2026-09-05T05:01:58.636515+00:00"
+    },
+    {
+      "artisan_name": "Birju Korwa",
+      "craft_title": "Bastar Lost-Wax Tribal Musician Bell Metal Sculpture",
+      "category": "Metal",
+      "story": "Birju Korwa and his clan gather wild bee wax from Bastar forests to weave delicate thread relief onto clay forms.",
+      "gi_origin": "Bastar, Chhattisgarh",
+      "_id": "1c9443cb-12aa-4eb9-b7a7-328d45475afa",
+      "created_at": "2026-09-05T05:01:58.632522+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Curative Terracotta Alkaline Water Dispenser (5L)",
+      "category": "Pottery",
+      "story": "Fired in ancestral community kilns using agricultural husk. 100% biodegradable and zero chemical glazes.",
+      "gi_origin": "Gorakhpur, Uttar Pradesh",
+      "_id": "be5bf176-136f-4dcc-9673-410e4bc3e3d4",
+      "created_at": "2026-09-05T05:01:58.628463+00:00"
+    },
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "GI Varanasi Royal Shikargah Mulberry Silk Saree",
+      "category": "Textile",
+      "story": "Takes 48 painstaking hours on a manual wooden loom. Every purchase supports 4 weaver apprentice families in Varanasi.",
+      "gi_origin": "Varanasi, Uttar Pradesh",
+      "_id": "3fe5dfb3-4b64-40ae-89df-f66fcedf1733",
+      "created_at": "2026-09-05T05:01:58.623468+00:00"
+    },
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "Saharanpur Hand-Carved Jali Wood Keepsake Box",
+      "category": "Woodwork",
+      "story": "Requires 16 hours of razor-sharp chisel carving by master artisans.",
+      "gi_origin": "Saharanpur, Uttar Pradesh",
+      "_id": "90787220-972b-4519-9479-7ac0b47d6a48",
+      "created_at": "2026-09-04T09:07:12.023306+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Jaipur Turquoise Quartz Glazed Heritage Platter",
+      "category": "Pottery",
+      "story": "Low thermal expansion ensures everlasting luster without cracking.",
+      "gi_origin": "Jaipur, Rajasthan",
+      "_id": "13dc6ca3-dcce-46ed-8cd1-cd7007a15b51",
+      "created_at": "2026-09-04T09:07:12.012534+00:00"
+    },
+    {
+      "artisan_name": "Fatima Bano Chippa",
+      "craft_title": "Organic Indigo Dabu Handblock Printed Cotton Stole",
+      "category": "Textile",
+      "story": "Dyed in sunlit riverbanks of Bagru using heirloom wooden blocks passed down through three generations.",
+      "gi_origin": "Bagru, Rajasthan",
+      "_id": "9fd75bd6-c67e-4695-9bf3-1d024155c05c",
+      "created_at": "2026-09-04T09:07:12.001507+00:00"
+    },
+    {
+      "artisan_name": "Birju Korwa",
+      "craft_title": "Bastar Lost-Wax Tribal Musician Bell Metal Sculpture",
+      "category": "Metal",
+      "story": "Birju Korwa and his clan gather wild bee wax from Bastar forests to weave delicate thread relief onto clay forms.",
+      "gi_origin": "Bastar, Chhattisgarh",
+      "_id": "1345d18a-154a-4d70-8ab0-7b13407b7461",
+      "created_at": "2026-09-04T09:07:11.996864+00:00"
+    },
+    {
+      "artisan_name": "Savitri Prajapati",
+      "craft_title": "Curative Terracotta Alkaline Water Dispenser (5L)",
+      "category": "Pottery",
+      "story": "Fired in ancestral community kilns using agricultural husk. 100% biodegradable and zero chemical glazes.",
+      "gi_origin": "Gorakhpur, Uttar Pradesh",
+      "_id": "949edbd4-2ab5-4885-b6b6-ed9014039ae4",
+      "created_at": "2026-09-04T09:07:11.981210+00:00"
+    },
+    {
+      "artisan_name": "Ramesh Kumar Ansari",
+      "craft_title": "GI Varanasi Royal Shikargah Mulberry Silk Saree",
+      "category": "Textile",
+      "story": "Takes 48 painstaking hours on a manual wooden loom. Every purchase supports 4 weaver apprentice families in Varanasi.",
+      "gi_origin": "Varanasi, Uttar Pradesh",
+      "_id": "f8c6914c-4ebe-4d44-b2a7-84fe26f911a9",
+      "created_at": "2026-09-04T09:07:11.973251+00:00"
+    }
+  ],
+  "telemetry_sensor_logs": [],
+  "audit_events": [
+    {
+      "_id": "a97819ce-c29b-44bf-a4c0-357c03574106",
+      "action": "USER_LOGIN",
+      "user": "ramesh_weaver",
+      "metadata": {
+        "role": "ARTISAN",
+        "city": "Varanasi"
+      },
+      "timestamp": "2026-09-07T10:16:48.083989+00:00"
+    },
+    {
+      "_id": "53e7ffad-9c07-4976-a47d-5cc40ac5acb0",
+      "action": "USER_LOGIN",
+      "user": "ramesh_weaver",
+      "metadata": {
+        "role": "ARTISAN",
+        "city": "Varanasi"
+      },
+      "timestamp": "2026-09-04T09:27:28.403380+00:00"
+    },
+    {
+      "_id": "9a38c29e-b09b-434c-b784-dcfd4704dd4c",
+      "action": "PAYMENT_INITIATED",
+      "user": "ramesh_weaver",
+      "metadata": {
+        "order_number": "ORD-KS-1788494136-128",
+        "amount": 7850.0,
+        "method": "GPAY",
+        "escrow_seal": "ESCROW-SEAL-DFCDD6502BACA80EB42EEB34"
+      },
+      "timestamp": "2026-09-04T09:25:36.495702+00:00"
+    },
+    {
+      "_id": "ec930f8e-3c43-4b04-8650-2417234bceec",
+      "action": "PAYMENT_INITIATED",
+      "user": "ramesh_weaver",
+      "metadata": {
+        "order_number": "ORD-KS-1788494114-217",
+        "amount": 7850.0,
+        "method": "GPAY",
+        "escrow_seal": "ESCROW-SEAL-6FAC6F36597AFB5987F1DEB3"
+      },
+      "timestamp": "2026-09-04T09:25:14.647694+00:00"
+    },
+    {
+      "_id": "6b69188f-93c0-4cc5-9cb6-2676f18fddf5",
+      "action": "PAYMENT_INITIATED",
+      "user": "ramesh_weaver",
+      "metadata": {
+        "order_number": "ORD-KS-1788494081-828",
+        "amount": 7850.0,
+        "method": "GPAY",
+        "escrow_seal": "ESCROW-SEAL-7880FBCE651C4BA4C94AB13D"
+      },
+      "timestamp": "2026-09-04T09:24:41.793786+00:00"
+    }
+  ]
+}
